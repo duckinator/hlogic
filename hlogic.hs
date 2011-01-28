@@ -51,10 +51,6 @@ a ~|| b = a `nor`  b
 a  ^ b = a `xor` b
 a ~^ b = a `xnor` b
 
-a ! b  = not a
-
-
-
 test name result expected =
   if result == expected
     then do
